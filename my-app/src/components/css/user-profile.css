@@ -9,6 +9,12 @@
   font-family: "Segoe UI";
 }
 
+@media only screen and (max-width: 1380px){
+  .user-profile{
+    display: none;
+  }
+}
+
 .user-picture{
   width: 150px;
   height: 150px;

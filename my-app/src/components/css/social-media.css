@@ -4,3 +4,11 @@
   left: 15%;
   display:flex;
 }
+
+@media only screen and (max-width: 1380px){
+  .container-middle{
+    width: 100%;
+    margin: 0;
+    left: 0;
+  }
+}
