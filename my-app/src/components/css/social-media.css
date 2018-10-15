@@ -1,0 +1,6 @@
+.container-middle{
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  display:flex;
+}

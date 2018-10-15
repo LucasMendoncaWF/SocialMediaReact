@@ -1,0 +1,60 @@
+.user-update{
+    width: calc(100% - 120px);
+    height: 200px;
+    margin: 40px;
+    padding: 20px;
+    border-bottom: 1px solid #35aeae;
+    font-family: "Segoe UI";
+    position: relative;
+}
+
+.user-update-input{
+    width: calc(100% - 22px);
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #35aeae;
+    background: #fff;
+    color: #7e7e7e;
+    font-weight: 700;
+    resize: none;
+    font-family: "Segoe UI";
+}
+
+.botao-enviar-update{
+    width: 80px;
+    padding: 10px;
+    color: #35aeae;
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid #35aeae; 
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.botao-enviar-update:hover{
+    background-color: #3877b6;
+    color: white;
+}
+
+.update-buttons{
+    display: flex;
+}
+
+.botao-attach{
+    color: #35aeae;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.botao-attach:hover{
+    color:#38d4d4;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+}
